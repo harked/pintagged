@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <script src="./js/jquery-1.7.2.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/excanvas.min.js"></script>
+    <script src="./js/html2canvas.js"></script>
+    <script src="./js/script.js"></script>
+    <title>Upload - Tag - Save</title>
+  </head>
+
+  <body>
+  <h1 class="red">Edit Image!</h1>
+  <p>
+    <input type="file" id="upload-img"/>
+    <input type="button" id="upload-image" value="Upload"/>an image,
+		<input type="button" id="add" value="Add Pin"/> or <input type="button" id="remove" value="Remove Pin"/> to the screen, drag it around and
+    <input type="button" id="btnSave" value="Save as Image"/>easily. Want to <input type="button" id="clear" value="Clear"/> screen ?
+  </p>
+  <div id="container-img">
+    <img id="myImg"/>
+  </div>
+    <div id="img-out"></div>
+  </body>
+</html>

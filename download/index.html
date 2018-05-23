@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/jquery.imagetag.css" rel="stylesheet" type="text/css">
+    <script src="./js/jquery-1.7.2.js"></script>
+    <script src="./js/jquery.event.drag-2.2.js"></script>
+    <script src="./js/jquery.event.drag.live-2.2.js"></script>
+    <script src="./js/jquery.event.drop-2.2.js"></script>
+    <script src="./js/jquery.event.drop.live-2.2.js"></script>
+    <script src="./js/excanvas.min.js"></script>
+    <script src="./js/html2canvas.js"></script>
+    <script src="./js/jquery-image-tag.js"></script>
+    <script src="./js/script.js"></script>
+    <title>Upload - Tag - Save</title>
+  </head>
+
+  <body>
+  <h1 class="red">Pintagged!</h1>
+  <p>
+    <input type="file" id="upload-img"/>
+    <input type="button" id="upload-image" value="Upload"/>an image,
+		<input type="button" id="add" value="Add Pin"/>to the screen, drag it around and
+    <input type="button" id="btnSave" value="Save as Image"/>beautifully..
+  </p>
+  <div id="container">
+    <img id="myImg"/>
+  </div>
+    <div id="img-out"></div>
+  </body>
+</html>
